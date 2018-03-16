@@ -33,10 +33,10 @@ plugins:
                 flow: 200000000000
     email:
         use: true
-        username: 'hyxiaodili@gmail.com'
+        username: 'hyxiaodili@126.com'
         password: 'out.dot.lap-333'
-        host: 'smtp.gmail.com'
-        
+        host: 'smtp.126.com'
+        port: 25
     webgui:
         use: true
         host: '0.0.0.0'
