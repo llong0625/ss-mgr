@@ -100,7 +100,7 @@ ss_mgr_s(){
 ss_mgr_m(){
 	ss_mgr_s
 	cd /root/shadowsocks-manager/
-	wget -N -P  /root/.ssmgr/ https://raw.githubusercontent.com/mmmwhy/ss-mgr/master/webgui.yml
+	wget -N -P  /root/.ssmgr/ https://raw.githubusercontent.com/llong0625/ss-mgr/master/webgui.yml
 	sed -i "s#127.0.0.1#${IPAddress}#g" /root/.ssmgr/webgui.yml
 	screen -dmS webgui node server.js -c /root/.ssmgr/webgui.yml
 }
