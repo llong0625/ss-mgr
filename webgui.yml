@@ -33,10 +33,10 @@ plugins:
                 flow: 200000000000
     email:
         use: true
-        username: 'hyxiaodili@126.com'
+        username: 'hyxiaodili@outlook.com'
         password: 'out.dot.lap-333'
-        host: 'smtp.126.com'
-        port: 25
+        host: 'smtp.office365.com'
+        port: 587
     webgui:
         use: true
         host: '0.0.0.0'
